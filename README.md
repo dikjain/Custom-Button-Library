@@ -1,23 +1,22 @@
-# Custom Cursor Effects
+# Custom Button Library
 
-This project showcases a variety of custom cursor effects created using html , css and javascript. Each cursor effect is designed to enhance user interaction by providing visually appealing and dynamic cursor behaviors.
+This project is a collection of stylish and animated buttons created using HTML, CSS, and JavaScript. Each button is designed to enhance user interaction by providing visually appealing and dynamic behaviors.
 
-NOTE : i have used ai in writing the readme as i am not good at writing and also used it to fix an error in meteor cursor whose trail was going out of container.
+NOTE : i have used ai in writing the readme as i am not good at writing README.
 
 ## Features
 
-- **Multiple Cursor Styles**: Choose from a variety of cursor effects, including:
-  - Ring Ripple
-  - Gradient Trail
-  - Magnetic Dots
-  - Pixel Cursor
-  - Neon Glow
-  - Supernova Meteor Cursor
+- **Diverse Button Styles**: Explore a variety of button designs, including:
+  - Animated Hover Effects
+  - Gradient Backgrounds
+  - Icon Integration
+  - 3D Button Styles
+  - Glassmorphism
   - And many more!
 
-- **Dynamic Interactions**: Each cursor effect responds to mouse movements, creating engaging visual feedback.
+- **Interactive Animations**: Most of the buttons responds to user interactions, offering engaging visual feedback.
 
-- **Customizable Styles**: Easily modify the CSS and JavaScript for each cursor effect to fit your design needs.
+- **Customizable Designs**: Easily modify the HTML, CSS, and JavaScript for each button to suit your design requirements.
 
 ## Installation
 
@@ -25,7 +24,7 @@ To get started with this project, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/dikjain/Custom-Cursor-Library.git
+   git clone https://github.com/dikjain/Custom-Button-Library.git
    ```
 
 2. **Install dependencies**:
@@ -38,9 +37,8 @@ To get started with this project, follow these steps:
    npm run dev
    ```
 
-4. **Open your browser** and navigate to `http://localhost:5173` to see the cursor effects in action.
+4. **Open your browser** and navigate to `http://localhost:5173` to see the button library in action.
 
 ## Usage
 
-To use a specific cursor effect, you can import the desired cursor configuration from the `src/data/cursors.ts` file and apply it to your components. Each cursor effect has its own HTML, CSS, and JavaScript code that can be customized.
-
+To use a specific button style, you can import the desired button configuration from the `src/data/Button.ts` file and apply it to your components. Each button style has its own HTML, CSS, and JavaScript code that can be customized to fit your needs.
