@@ -6,6 +6,11 @@ interface CodeBlockProps {
   language: string;
 }
 
+
+
+
+
+
 export function CodeBlock({ code, language }: CodeBlockProps) {
   const [copied, setCopied] = useState(false);
 
@@ -36,3 +41,4 @@ export function CodeBlock({ code, language }: CodeBlockProps) {
     </div>
   );
 }
+ 

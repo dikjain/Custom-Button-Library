@@ -11,6 +11,7 @@ interface ButtonCardProps {
 export function ButtonCard({ button }: ButtonCardProps) {
   const [showCode, setShowCode] = useState(false);
 
+
   return (
     <div className="bg-gray-800 rounded-xl overflow-hidden shadow-lg">
       <ButtonPreview button={button} />
@@ -35,9 +36,15 @@ export function ButtonCard({ button }: ButtonCardProps) {
               <h4 className="text-white font-semibold mb-2">CSS</h4>
               <CodeBlock code={button.css} language="css" />
             </div>
+            <div>
+              <h4 className="text-white font-semibold mb-2">JavaScript</h4>
+              <CodeBlock code={button.js} language="css" />
+            </div>
           </div>
         )}
       </div>
     </div>
   );
 }
+
+
